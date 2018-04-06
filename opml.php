@@ -18,6 +18,7 @@ class OPML {
 	function OPML($file) {
 		$this->file   = $file;
 	}
+	//testeeee
 
 	function parseOPMLtoArray() {
 		$parser = xml_parser_create();
